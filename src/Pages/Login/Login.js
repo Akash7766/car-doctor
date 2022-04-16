@@ -55,6 +55,9 @@ const Login = () => {
             LogIn
           </Button>
         </Form>
+        <div className="mt-3 ">
+          <Link to="/reset">Forgot your password?</Link>
+        </div>
         <p className="mt-2">
           New user? <Link to="/signup">create an accaount</Link>
         </p>

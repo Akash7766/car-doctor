@@ -8,6 +8,7 @@ import Signup from "./Pages/Login/Signup";
 import ProductDetails from "./Pages/Shared/ProductDetails";
 import Cheekout from "./Pages/Shared/Cheekout";
 import RequireAuth from "./RequiredAuth/RequireAuth";
+import Reset from "./Pages/Login/Reset";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         ></Route>
         <Route path="/Login" element={<Login></Login>}></Route>
         <Route path="/signup" element={<Signup></Signup>}></Route>
+        <Route path="/reset" element={<Reset></Reset>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
     </div>
